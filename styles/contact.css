@@ -19,6 +19,14 @@
   max-width: 60ch;
 }
 
+.contact__social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--size-4xl);
+}
+
 /* xs */
 @media (min-width: 475px) {
   .contact {
@@ -53,6 +61,10 @@
   .contact__description {
     font-size: var(--size-lg);
   }
+
+  .contact__social-icons {
+  font-size: var(--size-6xl);
+}
 }
 
 /* xl */
